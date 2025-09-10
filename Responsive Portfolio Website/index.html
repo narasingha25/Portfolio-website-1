@@ -1,0 +1,313 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Narasingha Mahananda — Web Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Narasingha Mahananda — Web Developer. Projects: Interactive Portfolio, E‑commerce landing, Weather App, Animated To‑Do, Contact Form."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>Narasingha Mahananda</h1>
+          <span class="title">Web Developer</span>
+        </div>
+        <nav class="nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2>Hello, I'm <span class="accent">Narasingha</span></h2>
+            <p class="lead">
+              Professional Web Developer building responsive, accessible, and
+              animated user interfaces using HTML, CSS & JavaScript.
+            </p>
+            <div class="cta">
+              <a class="btn primary" href="resume.pdf" download
+                >Download Resume</a
+              >
+              <a class="btn outline" href="#projects">See Projects</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <div class="card-inner">
+              <div class="avatar">NM</div>
+              <ul class="meta">
+                <li>
+                  <strong>Email</strong><span>naramahanand@gmail.com</span>
+                </li>
+                <li><strong>Phone</strong><span>+91 63720 22566</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2>
+              Hello, I'm <span class="accent animate-name">Narasingha</span>
+            </h2>
+            <p class="lead">
+              Professional Web Developer building responsive, accessible, and
+              animated user interfaces using HTML, CSS & JavaScript.
+            </p>
+            <div class="cta">
+              <a class="btn primary" href="resume.pdf" download
+                >Download Resume</a
+              >
+              <a class="btn outline" href="#projects">See Projects</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <div class="card-inner">
+              <div class="avatar">NM</div>
+              <ul class="meta">
+                <li>
+                  <strong>Email </strong
+                  ><span>narasingha.2022msc25@mnnit.ac.in</span>
+                </li>
+                <li><strong>Phone</strong><span>+91 63720 22322</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h3>About Me</h3>
+          <p class="intro">
+            Results-driven Web Developer with expertise in HTML, CSS, and
+            JavaScript. Experienced in building responsive, accessible, and
+            performant web applications. Strong focus on clean code,
+            component-based UI, and delightful micro-interactions that improve
+            user experience.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h3>Skills</h3>
+          <div class="skill-grid">
+            <div class="skill">
+              HTML5 <small>Semantic markup & accessibility</small>
+            </div>
+            <div class="skill">
+              CSS3 <small>Responsive, Flexbox, Grid</small>
+            </div>
+            <div class="skill">
+              JavaScript <small>ES6+, DOM, Fetch API</small>
+            </div>
+            <div class="skill">
+              Animations <small>CSS & JS micro-interactions</small>
+            </div>
+            <div class="skill">
+              Performance <small>Optimized & lightweight</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <h3>Selected Projects</h3>
+          <p class="muted">
+            Five professional projects demonstrating front-end skills,
+            interactivity, and animation.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card" data-project="portfolio">
+              <div class="project-head">
+                <h4>Interactive Portfolio Website</h4>
+                <span class="tag">HTML • CSS • JS • Animations</span>
+              </div>
+              <p>
+                A polished personal portfolio featuring smooth scrolling, reveal
+                animations, and project showcases — optimized for hiring
+                managers.
+              </p>
+              <div class="project-actions">
+                <button class="btn ghost" data-open="portfolio">Preview</button>
+                <a class="link" href="#">Code (placeholder)</a>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card" data-project="ecommerce">
+              <div class="project-head">
+                <h4>Responsive E‑commerce Landing Page</h4>
+                <span class="tag">HTML • CSS • JS</span>
+              </div>
+              <p>
+                High-conversion landing page with responsive product grid, hero
+                CTA, and subtle animations for micro‑interactions.
+              </p>
+              <div class="project-actions">
+                <button class="btn ghost" data-open="ecommerce">Preview</button>
+                <a class="link" href="#">Code (placeholder)</a>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card" data-project="weather">
+              <div class="project-head">
+                <h4>Weather App with API Integration</h4>
+                <span class="tag">JavaScript • API</span>
+              </div>
+              <p>
+                Real-time weather app that fetches data from a public API, shows
+                forecasts, and adapts visuals to conditions.
+              </p>
+              <div class="project-actions">
+                <button class="btn ghost" data-open="weather">Preview</button>
+                <a class="link" href="#">Code (placeholder)</a>
+              </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-card" data-project="todo">
+              <div class="project-head">
+                <h4>Animated To‑Do List App</h4>
+                <span class="tag">HTML • CSS • JS • localStorage</span>
+              </div>
+              <p>
+                Task manager with add/edit/delete, smooth animations, and
+                persistent storage using localStorage.
+              </p>
+              <div class="project-actions">
+                <button class="btn ghost" data-open="todo">Preview</button>
+                <a class="link" href="#">Code (placeholder)</a>
+              </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="project-card" data-project="contact-form">
+              <div class="project-head">
+                <h4>Responsive Contact Form with Validation</h4>
+                <span class="tag">HTML • CSS • JS</span>
+              </div>
+              <p>
+                Accessible contact form with client-side validation, success
+                states, and smooth transitions for better UX.
+              </p>
+              <div class="project-actions">
+                <button class="btn ghost" data-open="contact-form">
+                  Preview
+                </button>
+                <a class="link" href="#">Code (placeholder)</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- 
+      <section id="contact" class="section">
+        <div class="container">
+          <h3>Contact</h3>
+          <p class="muted">
+            Available for freelance and full-time opportunities. Reach out for
+            collaborations or interviews.
+          </p>
+          <div class="contact-grid">
+            <div>
+              <strong>Email</strong>
+              <p>
+                <a href="mailto:naramahanand@gmail.com"
+                  >naramahanand@gmail.com</a
+                >
+              </p>
+              <strong>Phone</strong>
+              <p><a href="tel:+916372022566">+91 63720 22566</a></p>
+            </div>
+            <div>
+              <strong>Social</strong>
+              <p>
+                <a href="#">LinkedIn</a> • <a href="#">GitHub</a> •
+                <a href="#">Portfolio</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h3>Contact</h3>
+          <p class="muted">
+            Available for freelance and full-time opportunities. Reach out for
+            collaborations or interviews.
+          </p>
+          <div class="contact-grid">
+            <div>
+              <strong>Email</strong>
+              <p>
+                <a href="mailto:narasingha.2022msc25@mnnit.ac.in"
+                  >narasingha.2022msc25@mnnit.ac.in</a
+                >
+              </p>
+              <strong>Phone</strong>
+              <p><a href="tel:+916372022322">+91 63720 22322</a></p>
+            </div>
+            <div>
+              <strong>Social</strong>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/narasingha-mahananda-2a0aa724b"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+                •
+                <a href="https://github.com/narasingha25" target="_blank"
+                  >GitHub</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Narasingha Mahananda • Web Developer</p>
+      </div>
+    </footer>
+
+    <!-- Project Modal (reused for previews) -->
+    <div id="project-modal" class="modal" aria-hidden="true">
+      <div
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button class="modal-close" aria-label="Close">✕</button>
+        <h4 id="modal-title">Project Preview</h4>
+        <div id="modal-content">Loading preview…</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
